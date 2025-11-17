@@ -4,6 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        brand: {
+          primary: '#C5E7F0',
+          'primary-dark': '#A8D5E5',
+          'primary-darker': '#8BC3DA',
+          'text-primary': '#8029B8',
+          'text-secondary': '#000000',
+        },
         ramen: {
           red: '#D7263D',
           dark: '#0B0A0A',
@@ -17,6 +24,7 @@ export default {
         }
       },
       fontFamily: {
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
         'pretendard': ['Pretendard', 'system-ui', 'sans-serif'],
         'noto-kr': ['Noto Serif KR', 'serif']
       },
